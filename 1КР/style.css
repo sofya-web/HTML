@@ -50,3 +50,14 @@
 .menu ul li a:hover {
     color: rgb(91, 15, 15);
 }
+
+
+
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
