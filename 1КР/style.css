@@ -1,3 +1,5 @@
+/*общее меню для шапки*/
+/*линия*/
 .line {
     height: 1px;
     background: #bd1313;
@@ -5,9 +7,7 @@
 }
 
 
-
-
-
+/*заголовок и кнопки*/
 .header-buttons {
     display: flex;
     align-items: flex-start;
@@ -27,9 +27,7 @@
 }
 
 
-
-
-
+/*меню*/
 .menu ul {
     display: flex;
     list-style: none;
@@ -53,11 +51,46 @@
 
 
 
-
+/* страница  каталог*/
 .products {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
     padding: 20px;
+}
+
+
+
+
+/* страница контакты*/
+textarea {
+    border-radius: 6px;
+}
+
+button {
+    padding: 10px 10px 10px 10px;
+    background: #bd1313;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px dashed #333;
+    display: none;
+}
+
+legend {
+    color: #bd1313;
+    font-size: 20px;
+}
+
+fieldset {
+    background-color: #bd13133b;
+    border-radius: 6px;
+    border-color: #bd1313;
 }
