@@ -9,38 +9,44 @@
 
 <body>
     <!-- шапка -->
-    <header class="header-buttons-menu">
-        <div class="header-buttons">
-            <div class="header">
-                <h1 style="color: #bd1313; margin: 0;">ООО "ПИЛСЕРВИС"</h1>
-                <p style="margin: 0;"><b>Представитель компании</b></p>
-                <p style="margin: 0;">Профессиональные ленточные пилы по дереву KORONET (Польша)</p>
-            </div>
+    <header id="header-menu">
+        <div class="header">
+            <h1 style="color: #bd1313; margin: 0;">ПИЛСЕРВИС</h1>
+            <p style="margin: 0;"><b>Представитель компании</b></p>
+            <p style="margin: 0;">Профессиональные ленточные пилы по дереву KORONET (Польша)</p>
         </div>
 
         <!-- меню -->
         <nav class="menu">
             <ul>
-                <li><b><a href="index.html"><i class="fas fa-home"></i> Главная</a></b></li>
-                <li><b><a href="catalog.html"><i class="fas fa-list"></i> Каталог</a></b></li>
-                <li><b><a href="delivery.html"><i class="fas fa-truck"></i> Доставка</a></b></li>
-                <li><b><a href="about.html"><i class="fas fa-info-circle"></i> О нас</a></b></li>
-                <li><b><a href="phone.html"><i class="fas fa-phone"></i> Контакты</a></b></li>
+                <li><b><a href="index.html"> Главная</a></b></li>
+                <li><b><a href="catalog.html"> Каталог</a></b></li>
+                <li><b><a href="delivery.html"> Доставка</a></b></li>
+                <li><b><a href="about.html"></i> О нас</a></b></li>
+                <li><b><a href="phone.html" class="nav-active"> Контакты</a></b></li>
             </ul>
         </nav>
 
         <!-- линия -->
-        <div class="line">
-        </div>
+        <div class="line"></div>
+
+        <!--навигация по странице-->
+        <nav class="menu">
+            <ul>
+                <li><b><a href='#contactForm'> Помогите нам стать лучше!</a></b></li>
+                <li><b><a href='#card'> Алгоритмическая задачка</a></b></li>
+            </ul>
+
+        </nav>
     </header>
 
     <!--контакты-->
     <div class="contacts">
         <h2>Контакты</h2>
-        <div>
-            <b>Телефон:</b> +7 (919) ***-11-57<br>
+        <div class="up">
+            <b>Телефон:</b><a href="https://t.me/tasofya" target="_blank"> +7 (9**) ***-11-57</a><br>
             <b>Email:</b> talankin@mail.com, talankina@mail.com<br>
-            <b>Адрес:</b> г Киров, Мелькомбинатовский проезд, 7<br>
+            <b>Адрес:</b> г. Киров, Мелькомбинатовский проезд, 7<br>
         </div>
     </div>
 
@@ -48,7 +54,7 @@
     <!--<form action="../../cgi-bin/form_action.py" method='get' target='_self'>-->
     <!--<form action="http://185.182.111.214:7628/cgi-bin/form_action.py" method='get' target='_self'>-->
     <!-- форма для запроса -->
-    <form action="https://www.ya.ru" id="contactForm" target="_blank">
+    <form action="https://www.ya.ru" id="Form" target="_blank">
         <div class="form">
             <h2>Связаться с нами через запрос:</h2>
             <fieldset>
@@ -78,8 +84,11 @@
         </div>
     </form>
 
+    <br>
+    <br>
+
     <!-- форма отзывов -->
-    <form action="https://www.ya.ru" id="feedbackForm" target="_blank">
+    <form action="https://www.ya.ru" id="contactForm" target="_blank">
         <fieldset>
             <legend>Насколько вам удобен наш сайт?</legend>
             <p><b>Почему выбрали нашу компанию?</b><br>
@@ -104,7 +113,46 @@
         </fieldset>
     </form>
 
+    <br>
+    <br>
 
+    <!--алгоритмическая задача-->
+    <form action="https://www.ya.ru" method="get" target="_blank" class="task">
+        <div class="card" id="card">
+            <legend>Проверка: принадлежит ли число X промежутку [a, b]</legend>
+
+            <label for="x"><b>Число X</b></label>
+            <input id="x" type="number" step="any" name="text">
+
+            <div class="row">
+                <div>
+                    <label for="a"><b>a (левая граница)</b></label>
+                    <input id="a" type="number" step="any" name="a">
+                </div>
+                <div>
+                    <label for="b"><b>b (правая граница)</b></label>
+                    <input id="b" type="number" step="any" name="b">
+                </div>
+            </div>
+            <br>
+
+            <button id="check" type="button">Проверить</button>
+            <button type="submit">Отправить</button>
+
+            <div id="out" class="result" style="display:none"></div>
+            <div class="hint" style="color: rgba(108, 108, 108, 0.683);">
+                <p>Интервал считается включающим концы: X принадлежит [a, b], если a≤X≤b.</p>
+            </div>
+        </div>
+        </div>
+    </form>
+
+    <script src="task.js"></script>
+
+    <!-- ссылка на общее меню -->
+    <div class="up">
+        <h5><a href="#header-menu" style="font-size: 20px;"> Вернуться к навигации</a></h5>
+    </div>
 </body>
 
 </html>
