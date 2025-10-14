@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   button.addEventListener('click', () => {
     const elements = document.querySelectorAll('.passport *');
     elements.forEach(el => {
-      if(el.children.length === 0) {
+      if (el.children.length === 0) {
         el.textContent = isLatin ? toCyrillic(el.textContent) : toLatin(el.textContent);
       }
     });
