@@ -1,3 +1,16 @@
+body {
+    font-family: inherit !important;
+    font-size: inherit !important;
+    line-height: inherit !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+
+
 /*общее меню для шапки*/
 /*линия*/
 .line {
@@ -8,7 +21,7 @@
 
 
 
-/*заголовок и кнопки*/
+/*заголовок*/
 .header {
     flex: 1;
     text-align: left;
@@ -44,6 +57,7 @@
 .nav-active {
     border-bottom: 2px solid #bd1313;
 }
+
 
 
 
@@ -91,6 +105,8 @@
     margin-top: 8px;
     font-weight: bold;
 }
+
+
 
 
 
@@ -172,50 +188,6 @@ textarea {
     margin-right: 15px;
 }
 
-
-
-/*для задачи*/
-.card {
-    border-radius: 8px;
-    background-color: #bd13133b;
-    padding: 18px;
-    margin-left: 70px;
-    margin-right: 70px;
-}
-
-label {
-    display: block;
-    margin-top: 12px;
-}
-
-.row {
-    display: flex;
-    gap: 20px;
-}
-
-.result {
-    margin-top: 14px;
-    font-weight: bold;
-}
-
-.ok {
-    background: #ecfdf5;
-    color: #065f46;
-    border: 1px solid #bbf7d0;
-}
-
-.no {
-    background: #fff1f2;
-    color: #7f1d1d;
-    border: 1px solid #fca5a5;
-}
-
-.task {
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    margin-top: 10px;
-}
 
 
 /*доставка*/
