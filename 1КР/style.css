@@ -108,8 +108,6 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-
-
 /*страница контакты*/
 form {
     background: #fff;
@@ -236,7 +234,10 @@ textarea {
 }
 
 .feature img {
-    width: 260px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .comments {
