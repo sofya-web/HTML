@@ -117,6 +117,7 @@ form {
     background: #fff;
     border-radius: 12px;
     padding: 20px;
+    margin: 0 auto;
 }
 
 button {
@@ -295,3 +296,4 @@ textarea {
         text-align: center;
     }
 }
+
