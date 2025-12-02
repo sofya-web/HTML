@@ -1,1 +1,1 @@
-https://github.com/sofya-web/HTML/2КР/index.html
+https://sofya-web.github.io/HTML/2КР/index.html
