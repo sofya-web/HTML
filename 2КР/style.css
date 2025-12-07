@@ -102,6 +102,7 @@
 
 .catalog-container {
     padding: 20px;
+    text-alight: center;
 }
 
 .button-container {
@@ -296,3 +297,4 @@ textarea {
         text-align: center;
     }
 }
+
