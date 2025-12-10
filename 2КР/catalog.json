@@ -1,50 +1,34 @@
 [
     {
         "img": "img/Koronet SILVER 35x1,1.jpg",
-        "title": "Koronet SILVER 35x1,1",
-        "description": "Ленточная пила Koronet SILVER 35x1,1",
-        "vendor_code": "SILVER-35-11"
+        "title": "Koronet SILVER 35x1,1"
     },
     {
         "img": "img/Koronet PREMIUM 35x0,9.jpg",
-        "title": "Koronet PREMIUM 35x0,9",
-        "description": "Ленточная пила Koronet PREMIUM 35x0,9",
-        "vendor_code": "PREMIUM-35-09"
+        "title": "Koronet PREMIUM 35x0,9"
     },
     {
         "img": "img/Koronet PREMIUM 35x1,1.jpg",
-        "title": "Koronet PREMIUM 35x1,1",
-        "description": "Ленточная пила Koronet PREMIUM 35x1,1",
-        "vendor_code": "PREMIUM-35-11"
+        "title": "Koronet PREMIUM 35x1,1"
     },
     {
         "img": "img/Koronet PREMIUM 40x1,0.jpg",
-        "title": "Koronet PREMIUM 40x1,0",
-        "description": "Ленточная пила Koronet PREMIUM 40x1,0",
-        "vendor_code": "PREMIUM-40-10"
+        "title": "Koronet PREMIUM 40x1,0"
     },
     {
         "img": "img/Koronet PREMIUM 40x1,14.jpg",
-        "title": "Koronet PREMIUM 40x1,14",
-        "description": "Ленточная пила Koronet PREMIUM 40x1,14",
-        "vendor_code": "PREMIUM-40-114"
+        "title": "Koronet PREMIUM 40x1,14"
     },
     {
         "img": "img/Koronet EXPERT 35x1,0.jpg",
-        "title": "Koronet EXPERT 35x1,0",
-        "description": "Ленточная пила Koronet EXPERT 35x1,0",
-        "vendor_code": "EXPERT-35-10"
+        "title": "Koronet EXPERT 35x1,0"
     },
     {
         "img": "img/Koronet EXPERT 35x1,1.jpg",
-        "title": "Koronet EXPERT 35x1,1",
-        "description": "Ленточная пила Koronet EXPERT 35x1,1",
-        "vendor_code": "EXPERT-35-11"
+        "title": "Koronet EXPERT 35x1,1"
     },
     {
         "img": "img/Koronet EXPERT 40x1,14.jpg",
-        "title": "Koronet EXPERT 40x1,14",
-        "description": "Ленточная пила Koronet EXPERT 40x1,14",
-        "vendor_code": "EXPERT-40-114"
+        "title": "Koronet EXPERT 40x1,14"
     }
 ]
