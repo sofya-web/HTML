@@ -52,8 +52,7 @@
 .up a,
 .block a,
 .comments a,
-.hi a,
-.contacts a {
+.hi a {
     text-decoration: none;
     color: #bd1313;
     padding: 0;
@@ -62,8 +61,7 @@
 .up a:hover,
 .block a:hover,
 .comments a:hover,
-.hi a:hover,
-.contacts a:hover {
+.hi a:hover {
     color: rgb(91, 15, 15);
 }
 
@@ -94,18 +92,8 @@
     cursor: pointer;
 }
 
-.pila {
-    text-align: center;
-    margin-top: 8px;
-    font-weight: bold;
-}
-
 .catalog-container {
     padding: 20px;
-    text-align: center;
-}
-
-.button-container {
     text-align: center;
 }
 
@@ -144,53 +132,6 @@
 
 
 
-/*страница контакты*/
-form {
-    background: #fff;
-    border-radius: 12px;
-    padding: 20px;
-    margin: 0 auto;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-button {
-    padding: 10px 10px 10px 10px;
-    background: #bd1313;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-}
-
-legend {
-    color: #bd1313;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-fieldset {
-    background-color: #bd13133b;
-    border-radius: 8px;
-    border-color: #bd1313;
-    border: none;
-}
-
-textarea {
-    border-radius: 6px;
-}
-
-input,
-select,
-textarea {
-    padding: 8px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-}
-
-
-
 /*для страницы о нас*/
 .about-us {
     display: flex;
@@ -223,8 +164,6 @@ textarea {
     min-width: 300px;
     text-align: justify;
 }
-
-
 
 
 
@@ -294,8 +233,7 @@ textarea {
     .about-us,
     .container,
     .comments,
-    .product,
-    form {
+    .products {
         padding-left: 15px;
         padding-right: 15px;
         margin: 0;
@@ -317,14 +255,6 @@ textarea {
     .svarka {
         width: 100% !important;
         margin: 20px 0 !important;
-    }
-
-    form {
-        padding: 0 15px !important;
-    }
-
-    form label {
-        display: block;
     }
 
     .tovar {
